@@ -19,7 +19,7 @@ public class DemoString {
 //        if(args.length > 0)
 //             System.out.println(args[0].charAt(args.length -1));
 //        else
-//            System.out.print("args has no argument");
+          System.out.print("args has no argument");
          for( String arg : args){
             System.out.println("First char of "+ arg +" in args is " + arg.charAt(0));
              System.out.println("Last char of "+ arg +" in args is " + arg.charAt(arg.length() -1));
